@@ -1,0 +1,74 @@
+/* MusicBrainzSearch.css */
+
+.musicbrainz-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .musicbrainz-title {
+    color: #333;
+  }
+  
+  .musicbrainz-input {
+    width: 60%; 
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .musicbrainz-results {
+    list-style: none;
+    padding: 0;
+  }
+
+  .musicbrainz-artist-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .musicbrainz-artist-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .musicbrainz-artist-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    
+  }
+  
+  .musicbrainz-artist-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  
+  .musicbrainz-artist-details h2,
+  .musicbrainz-artist-details p {
+    text-align: center;
+  }
+
+  
+.musicbrainz-artist-details ul {
+    list-style: none; 
+    padding: 0;
+  }
+  
